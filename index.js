@@ -7,7 +7,6 @@
 //    ELSE
 //      - return "Rock"
 
-
 function getComputerChoice() {
   let randomNum = Math.floor(Math.random() * 3);
   if (randomNum === 0) {
@@ -19,4 +18,25 @@ function getComputerChoice() {
   }
 }
 
-// 4. 
+// 4. Create function named getHumanChoice
+// 5. Create variable called userInput, inside function
+// 6. Get user's input with the code, prompt("Choose rock, paper, or scissors", ""); inside the variable userInput
+//Correction:
+//4. Create variable called userInput
+//5. Get user's input with the code, prompt("Choose rock, paper, or scissors", ""); inside the variable userInput
+//6. Create function named getHumanChoice
+//7. Output userInput, inside the function
+
+let userInput = prompt("Choose rock, paper, or scissors", "");
+
+function getHumanChoice() {
+  return userInput;
+}
+console.log(userInput);
+console.log(getHumanChoice());
+
+// 8. Create the variables humanScore & computerScore
+// 9. Initialize the 2 variables with the value 0
+
+let humanScore = 0;
+let computerScore = 0;
